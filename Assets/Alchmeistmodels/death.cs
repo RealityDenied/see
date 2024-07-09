@@ -16,7 +16,7 @@ public class death : MonoBehaviour
     void Update()
     {
         //if transform.position.y is less than -25 then reload active scene
-        if(transform.position.y < -25){
+        if(transform.position.y < -40){
             //use scenemanageent to relaod scene
 
             ReloadActiveScene();
